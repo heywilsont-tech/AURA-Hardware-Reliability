@@ -1,0 +1,12 @@
+{
+  "sampling_interval_seconds": 2,
+  "database": "data/telemetry.db",
+  "i2c_bus": 1,
+  "bme280_address": "0x76",
+  "mpu6050_address": "0x68",
+  "ina219_address": "0x40",
+  "anomaly": {
+    "contamination": 0.05,
+    "training_rows": 200
+  }
+}
